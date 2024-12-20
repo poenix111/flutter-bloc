@@ -7,7 +7,7 @@ class PokemonScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Bloc con Futures'),
+          title: const Text('Pokemon Bloc'),
         ),
         body: const Center(
           child: Text('Fernando Herrera'),
@@ -20,9 +20,7 @@ class PokemonScreen extends StatelessWidget {
               child: const Icon(Icons.plus_one),
               onPressed: () {},
             ),
-
             const SizedBox(height: 15),
-
             FloatingActionButton(
               heroTag: 'btn-minus',
               child: const Icon(Icons.exposure_minus_1),
